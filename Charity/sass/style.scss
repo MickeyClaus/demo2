@@ -1,0 +1,31 @@
+$maincolor:#FF4800;
+
+
+#first{
+    .header{
+        background-color: $maincolor;
+        .info{
+            p{
+                display: inline-block;
+                color: white;
+                margin-top: 10px;
+            }
+            .phone{
+                margin-left: 40px;
+            }
+        }
+        .btn{
+            padding: 12px 60px;
+            border-radius: 0;
+          float: right;
+        }
+    }
+}
+
+.cols{
+    .col-md-6{
+        border: 2px solid black;
+        background-color: blue($color: #000000);
+        height: 400px;
+    }
+}
